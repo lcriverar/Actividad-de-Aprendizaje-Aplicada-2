@@ -12,7 +12,7 @@ const config = {
 		}),
 		paths: {
 			
-			base: process.env.NODE_ENV === 'production' ? 'Actividad-de-Aprendizaje-Aplicada-2' : '',
+			base: process.env.NODE_ENV === 'production' ? '/Actividad-de-Aprendizaje-Aplicada-2' : '',
 		}
 	}
 };
