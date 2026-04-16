@@ -34,7 +34,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: 'build' # SvelteKit static genera la carpeta 'build'
+          path: 'build'
 
       - name: Deploy
         id: deployment
